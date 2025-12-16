@@ -17,24 +17,24 @@ PawFresh makes keeping your pet safe as easy as taking a photo. Here is the typi
   <tr>
     <td width="50%" align="center">
       <h3>1. Create Pet Profile</h3>
-      <img src="public/screenshot-create.png" alt="Create Profile Screen" width="250" style="border-radius: 20px; border: 1px solid #ddd;"/>
+      <img src="screenshot-create.png" alt="Create Profile Screen" width="250" style="border-radius: 20px; border: 1px solid #ddd;"/>
       <p>Upload a photo of your pet. The AI automatically detects the <strong>species and breed</strong>. You simply add their name, age, weight, and any specific allergies (e.g., Gluten) or conditions.</p>
     </td>
     <td width="50%" align="center">
       <h3>2. Your Dashboard</h3>
-      <img src="public/screenshot-home.png" alt="Home Screen" width="250" style="border-radius: 20px; border: 1px solid #ddd;"/>
+      <img src="screenshot-home.png" alt="Home Screen" width="250" style="border-radius: 20px; border: 1px solid #ddd;"/>
       <p>View all your pets in one place. Access your search history, check your remaining free credits, or manage multiple pet profiles easily.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
       <h3>3. Scan Food</h3>
-      <img src="public/screenshot-check.png" alt="Scan Screen" width="250" style="border-radius: 20px; border: 1px solid #ddd;"/>
+      <img src="screenshot-check.png" alt="Scan Screen" width="250" style="border-radius: 20px; border: 1px solid #ddd;"/>
       <p>Wondering <em>"Can Pamuk eat this?"</em> simply tap to open the camera or upload a photo from your gallery. The app prepares the image for analysis.</p>
     </td>
     <td width="50%" align="center">
       <h3>4. Instant Analysis</h3>
-      <img src="public/screenshot-result.png" alt="Result Screen" width="250" style="border-radius: 20px; border: 1px solid #ddd;"/>
+      <img src="screenshot-result.png" alt="Result Screen" width="250" style="border-radius: 20px; border: 1px solid #ddd;"/>
       <p><strong>Get a clear Yes/No answer.</strong> The AI explains <em>why</em> it is dangerous based on your specific pet's health context (e.g., this tart contains gluten which conflicts with the pet's condition).</p>
     </td>
   </tr>
