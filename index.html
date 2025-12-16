@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>PawFresh</title>
+    <link rel="icon" type="image/png" href="logo.png" />
+    <link rel="apple-touch-icon" href="logo.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Nunito', 'sans-serif'],
+            },
+            colors: {
+              paw: {
+                bg: '#F8FAFC',
+                primary: '#2EC4B6',
+                accent: '#FF6B6B',
+              }
+            }
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.1/",
+    "react": "https://esm.sh/react@^19.2.1",
+    "lucide-react": "https://esm.sh/lucide-react@^0.559.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.32.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.1/"
+  }
+}
+</script>
+</head>
+  <body class="bg-[#F8FAFC] text-slate-900 antialiased h-screen overflow-hidden selection:bg-[#2EC4B6] selection:text-white">
+    <!-- Responsive Container: Grows on MD/LG screens for iPad support -->
+    <div id="root" class="h-full w-full flex flex-col mx-auto bg-[#F8FAFC] shadow-2xl overflow-hidden relative max-w-md md:max-w-2xl lg:max-w-4xl border-x border-slate-100/50"></div>
+  </body>
+</html>

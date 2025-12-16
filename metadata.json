@@ -1,0 +1,7 @@
+{
+  "name": "Pet Food Advisor",
+  "description": "An AI-powered assistant that helps pet owners determine if specific foods are safe for their pets using Gemini Vision.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
