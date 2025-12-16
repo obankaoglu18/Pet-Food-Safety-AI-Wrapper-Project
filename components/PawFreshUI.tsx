@@ -8,7 +8,7 @@ import { localization } from '../services/localizationService';
 const COLORS = PawFreshTheme.colors.light;
 
 // --- 0. Layout & Backgrounds ---
-export const AppScreen = ({ children, className = '', style = {} }: { children: ReactNode, className?: string, style?: any }) => (
+export const AppScreen = ({ children, className = '', style = {} }: { children?: ReactNode, className?: string, style?: any }) => (
   <div 
     className={`flex flex-col h-full w-full bg-[#F8FAFC] text-[${COLORS.text}] relative overflow-hidden ${className}`}
     style={{ ...style }}
@@ -25,7 +25,7 @@ export const AppScreen = ({ children, className = '', style = {} }: { children: 
 );
 
 // --- 1. Card ---
-export const Card = ({ children, className = '', onClick, variant = 'default' }: { children: ReactNode, className?: string, onClick?: () => void, variant?: 'default' | 'outline' | 'ghost' | 'danger' }) => {
+export const Card = ({ children, className = '', onClick, variant = 'default' }: { children?: ReactNode, className?: string, onClick?: () => void, variant?: 'default' | 'outline' | 'ghost' | 'danger' }) => {
   const baseStyle = `rounded-[${PawFreshTheme.radii.card}px] transition-all duration-200`;
   let variantStyle = `bg-white shadow-sm border border-[${COLORS.outline}]`;
   
@@ -106,7 +106,7 @@ export const IconButton = ({ icon: Icon, onClick, className = '' }: any) => (
 );
 
 // --- 3. Typography ---
-export const Txt = ({ variant = 'body', className = '', children, color }: { variant?: 'h1' | 'h2' | 'body' | 'caption' | 'muted', className?: string, children: ReactNode, color?: string }) => {
+export const Txt = ({ variant = 'body', className = '', children, color }: { variant?: 'h1' | 'h2' | 'body' | 'caption' | 'muted', className?: string, children?: ReactNode, color?: string }) => {
   const styles = PawFreshTheme.typography;
   let style: any = styles.body;
   let defaultColor = COLORS.text;
